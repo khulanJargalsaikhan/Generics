@@ -14,6 +14,9 @@ public class App {
 		String val1 = container.getItem1();
 		Integer val2 = container.getItem2();
 		
+		//here is an example with different data types
+		Container<Boolean, Character> container2 = new Container<>(false, 'h');
+		
 		Set<String> mySet1 = new HashSet<String>();
 		mySet1.add("first");
 		mySet1.add("second");

@@ -3,7 +3,7 @@ package generics;
 
 // How to create a Generic class
 public class Container<i1, i2> {
-	//i1, i2 are generic and usable for any data type
+	//i1, i2 are type parameters (generic and usable for any data type)
 	i1 item1;
 	i2 item2;
 	
